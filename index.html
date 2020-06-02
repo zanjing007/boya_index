@@ -1,0 +1,316 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>博雅互动</title>
+    <style type="text/css">
+        *{
+            margin:0;
+            padding:0;
+        }
+        body{
+            font-family:"Microsoft YaHei","SimSun";
+            font-size:14px;
+        }
+        .header{
+            height:58px;
+            background-color:#191D3A;
+        }
+        .inner_c{
+            width:1000px;
+            margin:0 auto;
+        }
+        .header .inner_c .logo{
+            float:left;
+            margin-right: 40px;
+        }
+        .header .inner_c .logo a{
+            display:block;
+            height:58px;
+            width:185px;
+            background:url(image/logo.png) no-repeat;
+            text-indent:-9999px;
+        }
+        .header .inner_c .nav{
+            float:left;
+        }
+        .header .inner_c .nav ul{
+            list-style: none;
+        }
+        .header .inner_c .nav ul li{
+            float:left;
+            width:100px;
+            line-height:58px;
+            text-align:center;
+            border-left:1px solid #252947;
+        }
+        .header .inner_c .nav ul li a.last{
+            border-right:1px solid #252947;
+        }
+        .header .inner_c .nav ul li a{
+            display:block;
+            color:#818496;
+            text-decoration:none;
+            width:100px;
+            height:58px;
+        }
+        .header .inner_c .nav ul li a:hover{
+            background-color:#252947;
+            color:white;
+        }
+        .header .inner_c .nav ul li a.current{
+            background-color:#252947;
+            color:white;
+        }
+
+        .jrwm{
+            float:left;
+            padding-left:48px;
+            padding-top:12px;
+        }
+        .c1{
+            clear:both;
+        }
+        .banner{
+            background:url("image/banner.jpg") no-repeat center top;
+            height:465px;
+        }
+
+        .content{
+            margin-top:50px;
+            height:650px;
+            background:url(image/indexmainbg.jpg) no-repeat center bottom;
+        }
+        .content .product{
+            height:229px;
+            border-bottom:1px solid #DBE1E7;
+        }
+        .content .product ul{
+            list-style: none;
+        }
+        .content .product ul li{
+            float:left;
+            width:218px;
+            height:229px;
+            margin-right:42px;
+        }
+        .content .product ul li img{
+            width:218px;
+            height:130px;
+        }
+        .content .product ul li.last_right{
+            margin-right:0px;
+        }
+        .content .product ul li h3{
+            line-height:40px;
+            text-align: center;
+        }
+        .content .product ul li .djbf{
+            line-height: 16px;
+            text-align: center;
+         }
+        .content .product ul li p.djbf a{
+            text-decoration:none;
+            font-size:12px;
+            color:green;
+            padding-right:14px;
+            background:url("image/sanjiaoxing.png") no-repeat right 6px;
+        }
+        .content .main{
+            padding-top:53px;
+        }
+        .content .main .boyaanews{
+            float: left;
+            position:relative;
+            width:500px;
+            padding-top:110px;
+            background:url(image/bynewsbg.jpg);
+        }
+        .content .main .boyaanews .more{
+            position:absolute;
+            top:40px;
+            left:218px;
+            height:28px;
+            width:66px;
+            background:url(image/more.png) no-repeat;
+        }
+        .content .main .boyaanews ul{
+            list-style:none;
+            padding:0 20px;
+        }
+        .content .main .boyaanews ul li{
+            line-height:50px;
+            border-bottom:1px solid #E0E1E5;
+        }
+        .content .main .boyaanews ul li span{
+            font-size:12px;
+            margin-right:22px;
+            color:#AFC4DC;
+        }
+        .content .main .boyaanews ul li a{
+            font-size:14px;
+            text-decoration:none;
+            color:#444866;
+        }
+
+        .content .main .boyaajobs{
+            float:left;
+            width:500px;
+            height:310px;
+            background:url(image/byhrbg3.jpg);
+        }
+        .content .inner_c .title{
+            margin-top:42px;
+            margin-left:78px;
+        }
+        .content .inner_c .boyaajobs .title h3{
+            height:51px;
+            width:119px;
+            background:url(image/zczp.png) no-repeat;
+            text-indent:-999px;
+        }
+        .content .inner_c .boyaajobs h4{
+            padding-top:18px;
+            padding-left:20px;
+            color:#FFFFFF;
+            font-size:14px;
+            line-height:22px;
+        }
+        .content .inner_c .boyaajobs ul{
+            list-style:none;
+            padding-left:20px;
+        }
+        .content .inner_c .boyaajobs ul li{
+            line-height:37px;
+            border-bottom:1px solid #6FDEA3;
+            width:305px;
+            font-size:14px;
+            color:#FFFFFF;
+
+        }
+        .footer{
+            height:91px;
+            background-color:#191D3A;
+        }
+        .footer .left_part{
+            float:left;
+            width:200px;
+            line-height:91px;
+        }
+        .footer .left_part a{
+            text-decoration:none;
+            color:#6C6E7E;
+        }
+        .footer .inner_c .right_part{
+            float:left;
+            height:91px;
+            width:800px;
+            color:#6C6E7E;
+            font-size: 12px;
+            text-align:right;
+        }
+        .footer  .inner_c .right_part .jinghui{
+            width:40px;
+            position:relative;
+            top:18px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="inner_c">
+            <div class="logo"><a href="#">博雅互动</a></div>
+            <div class="nav">
+                <ul>
+                    <li ><a href="#" class="current">首页</a></li>
+                    <li><a href="#">博雅游戏</a></li>
+                    <li><a href="#">博雅新闻</a></li>
+                    <li><a href="#">关于我们</a></li>
+                    <li><a href="#">客服中心</a></li>
+                    <li ><a href="#" class="last">投资者关系</a></li>
+                </ul>
+            </div>
+            <div class="jrwm"><a href="#"><img src="image/jrwm.png"></a></div>
+        </div>
+    </div>
+    <div class="c1"></div>
+    <div class="banner"></div>
+
+    <div class="content">
+        <div class="inner_c">
+            <div class="product">
+                <ul>
+                    <li>
+                        <p><img src="image/pro1.jpg" ></p>
+                        <h3>BPT宣传片</h3>
+                        <p class="djbf"><a href="#">点击播放</a></p>
+                    </li>
+                    <li>
+                        <p><img src="image/pro2.jpg" ></p>
+                        <h3>博雅互动宣传视频</h3>
+                        <p class="djbf"><a href="" >点击播放</a></p>
+                    </li>
+                    <li>
+                        <p><img src="image/pro3.jpg" ></p>
+                        <h3>斗地主</h3>
+                        <p class="djbf"><a href="#">点击播放</a></p>
+                    </li>
+                    <li class="last_right">
+                        <p><img src="image/pro4.jpg" ></p>
+                        <h3>德州扑克</h3>
+                        <p class="djbf"><a href="#">点击播放</a></p>
+                    </li>
+                </ul>
+            </div>
+            <div class="main">
+                <div class="boyaanews">
+                    <div class="more"></div>
+                    <ul>
+                        <li><span>09 / 28</span>
+                            <a href="#">2015博雅国际扑克大赛在澳门落幕</a>
+                        </li>
+                        <li><span>09 / 28</span>
+                            <a href="#">2015博雅国际扑克大赛在澳门落幕</a>
+                        </li>
+                        <li><span>09 / 28</span>
+                            <a href="#">2015博雅国际扑克大赛在澳门落幕</a>
+                        </li>
+                        <li><span>09 / 28</span>
+                            <a href="#">2015博雅国际扑克大赛在澳门落幕</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="boyaajobs">
+                    <div class="title">
+                        <h3>专场招聘</h3>
+                    </div>
+                    <h4>专场招聘岗位</h4>
+                    <ul>
+                        <li>C++开发工程师</li>
+                        <li>WEB前端开发工程师</li>
+                        <li>PHP开发工程师</li>
+                        <li>大数据开发工程师</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="c1"></div>
+
+    <div class="footer">
+        <div class="inner_c">
+            <div class="left_part">
+                <a href="#">网站地图</a>
+                <span>|</span>
+                <a href="#">免责声明</a>
+            </div>
+            <div class="right_part">
+                Copyright @ 2004 - 2014 博雅互动(Boyaa Interactive) 粤ICP备05062536号 增值电信业务经营许可证 : 粤B2-20110513
+                <img class="jinghui" src="image/govIcon.gif"/>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
